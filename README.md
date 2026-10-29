@@ -2,18 +2,6 @@
 
 Simulação e Teste de Software (CC8550) - FEI
 
-Cada exercício é um projeto separado (ex1 a ex4). Para rodar, entre na pasta do exercício e use:
-
-```
-pytest -q --cov=src --cov-branch --cov-report=term-missing
-mutmut run
-mutmut results
-```
-
-Versões: pytest 9.1.1, pytest-cov 7.1.0, mutmut 3.8.0 (rodando no Codespaces).
-
----
-
 ## Exercício 1 - Situação do Aluno
 
 **a) Cobertura e mutmut (suíte inicial, 2 testes)**
